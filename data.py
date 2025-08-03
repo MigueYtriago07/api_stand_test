@@ -1,8 +1,9 @@
-headers = {
-    "Content-Type": "application/json"
-    # Agrega "Authorization" si la API lo necesita
+user_body = {
+    "firstName": "Andrea",
+    "phone": "+12345678901",
+    "address": "123 Example Street"
 }
 
-product_ids = {
-    "ids": [1, 2, 3]
+kit_body = {
+    "name": "Kit Inicial"
 }
